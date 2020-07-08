@@ -27,6 +27,11 @@ const Footer = () => {
             })}
         </div>
         <hr />
+        <p>
+          Made with <i className="fa fa-heart" /> using&nbsp;
+          <a href="https://www.gatsbyjs.org/">GatsbyJS</a>
+        </p>
+        <p>&copy; Peter Liu 2020</p>
       </Container>
     </footer>
   );
