@@ -11,6 +11,11 @@
     clip-path: none;
   }
 
+  .phone-cen {
+    @include respond(tab-port) {
+      justify-content: center;
+    }
+  }
   .about-wrapper {
     @include respond(phone) {
       padding-bottom: 5rem;

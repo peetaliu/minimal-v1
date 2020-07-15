@@ -41,7 +41,7 @@ const About = () => {
                 <p className="about-wrapper__info-text">{paragraphTwo}</p>
                 <p className="about-wrapper__info-text">{paragraphThree}</p>
                 {resume && (
-                  <span className="d-flex mt-3">
+                  <span className="d-flex mt-3 phone-cen">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
