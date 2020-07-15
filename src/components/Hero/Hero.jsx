@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-import bg from '../../images/bg.jpg'; // Tell webpack this JS file uses this image
+import bg from '../../images/bg.jpg'; // Reference for webpack
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       <Container>
-        <Fade left={isDesktop} bottom={isMobile} duration={500} delay={200} distance="30px">
+        <Fade left={isDesktop} bottom={isMobile} duration={750} delay={350} distance="30px">
           <h1 className="hero-title">
             {title}
             <span className="text-color-main">{name}</span>
@@ -34,7 +34,7 @@ const Header = () => {
             <p>{tech}</p>
           </h1>
         </Fade>
-        <Fade left={isDesktop} bottom={isMobile} duration={750} delay={500} distance="30px">
+        <Fade left={isDesktop} bottom={isMobile} duration={750} delay={750} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={750}>
