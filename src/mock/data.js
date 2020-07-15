@@ -18,9 +18,10 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'bg.jpg',
+  img: 'profile.jpg',
   paragraphOne: 'Software Developer, Fitness Enthusiast, Car Lover',
-  paragraphTwo: 'I build web experiences with a focus on useability and simplicity',
+  paragraphTwo:
+    'I build web experiences with a focus on useability and simplicity. Work experiences include, Project/Production Coordinator, Tech Consultant, and Personal Trainer ;)',
   paragraphThree:
     "When I'm not doing dev stuff, you can find me in the gym, garage, or out and about with my camera in tow",
   resume: 'Resume',
@@ -31,11 +32,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'BOTVID-19',
+    info: 'Discord bot which displays COVID-19 news and numbers',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/peetaliu/sunny_bot', // if no repo, the button will not show up
   },
 ];
 
