@@ -23,7 +23,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Peetaliu Dev Portfolio`,
-        short_name: `PLDPortfolio`,
+        short_name: `PL-Port`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
