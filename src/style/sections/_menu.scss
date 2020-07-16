@@ -1,6 +1,60 @@
 #menu {
-  position: fixed;
-  background: #333333;
-  top: 0;
-  width: 100%;
+  &__top {
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s;
+    height: 90px;
+  }
+  &__scrolled {
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s;
+    height: 60px;
+
+    .logo {
+      font-size: 3.5rem;
+
+      @include respond(phone) {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  padding-left: 2em;
+  font-size: $big-font-size;
+  transition: all 0.2s;
+
+  @include respond(phone) {
+    padding-left: 0.5em;
+    font-size: $mid-font-size;
+  }
+}
+
+.items {
+  list-style: none;
+  flex-direction: row;
+  padding-right: 2em;
+  font-size: 2.5rem;
+
+  @include respond(phone) {
+    padding-right: 0.5em;
+  }
+
+  li {
+    float: left;
+    padding: 0 5px;
+  }
 }
