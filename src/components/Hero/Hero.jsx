@@ -3,7 +3,6 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-import bg from '../../images/bg.jpg'; // Reference for webpack
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
