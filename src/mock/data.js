@@ -1,5 +1,13 @@
 import { nanoid } from 'nanoid';
 
+export const menuData = {
+  logo: 'Peter L.',
+  items: [
+    { id: nanoid(), name: 'lightbulb' },
+    { id: nanoid(), name: 'envelope' },
+  ],
+};
+
 // HEAD DATA
 export const headData = {
   title: 'Peter | Fullstack',
