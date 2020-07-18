@@ -32,10 +32,10 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'Software Developer, Fitness Enthusiast, Car Lover',
   paragraphTwo:
-    'I build web experiences with a focus on useability and simplicity. Work experiences include, Project/Production Coordinator, Tech Consultant, and Personal Trainer ;)',
+    "I build web experiences with a focus on useability and simplicity. My front ends are built with React, while my backends consist of RESTful Node/Express and MongoDB. The MERN stack is great and all but variety is the spice of life. I've worked with SQL databases while in school and have dabbled with Vue and Angular in my free time(nothing extensive). I'm currently learning Svelte and GraphQL.",
   paragraphThree:
-    "When I'm not doing dev stuff, you can find me in the gym, garage, or out and about with my camera in tow",
-  resume: 'Resume',
+    "When I'm not doing dev stuff, you can find me in the gym or wrenching in the garage",
+  resume: 'url',
 };
 
 // PROJECTS DATA
