@@ -1,18 +1,18 @@
 import { nanoid } from 'nanoid';
 
+// HEAD DATA
+export const headData = {
+  title: 'Peter | Fullstack',
+  lang: 'en',
+  description: 'Portfolio',
+};
+
 export const menuData = {
   logo: 'Peter L.',
   items: [
     { id: nanoid(), name: 'lightbulb' },
     { id: nanoid(), name: 'envelope' },
   ],
-};
-
-// HEAD DATA
-export const headData = {
-  title: 'Peter | Fullstack',
-  lang: 'en',
-  description: 'Portfolio',
 };
 
 // HERO DATA
@@ -22,6 +22,9 @@ export const heroData = {
   subtitle: 'Fullstack Developer.',
   tech: 'React, Node/Express.',
   cta: 'Learn More',
+  loc: 'Based in Toronto.',
+  contact: "Let's get in touch.",
+  ref: 'mailto:peterdotliu@gmail.com',
 };
 
 // ABOUT DATA
