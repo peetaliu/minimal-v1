@@ -19,6 +19,19 @@
     padding: 0rem $default-font-size;
   }
 
+  .container {
+    padding: 0;
+  }
+
+  .hero-block {
+    display: flex;
+    justify-content: space-between;
+
+    @include respond(phone) {
+      flex-direction: column;
+    }
+  }
+
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
@@ -38,6 +51,22 @@
     }
     @include respond(phone-xs) {
       font-size: 2.8rem;
+    }
+  }
+
+  .hero-info {
+    display: inline-block;
+    border-left: solid;
+    padding: 0 1em;
+    text-align: left;
+
+    span {
+      font-weight: 400;
+    }
+
+    @include respond(phone) {
+      border: none;
+      padding-bottom: 1em;
     }
   }
 
