@@ -6,7 +6,7 @@ import PortfolioContext from '../../context/context';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, tech, cta } = hero;
+  const { title, name, subtitle, tech, cta, loc, contact, ref } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -24,20 +24,34 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       <Container>
-        <Fade left={isDesktop} bottom={isMobile} duration={750} delay={350} distance="30px">
-          <h1 className="hero-title">
-            {title}
-            <span className="text-color-main">{name}</span>
-            <br />
-            {subtitle}
-            <p>{tech}</p>
-          </h1>
-        </Fade>
+        <div className="hero-block">
+          <Fade left={isDesktop} bottom={isMobile} duration={750} delay={350} distance="30px">
+            <h1 className="hero-title">
+              {title}
+              <span className="text-color-main">{name}</span>
+              <br />
+              {subtitle}
+              <p>{tech}</p>
+            </h1>
+            <Fade right={isDesktop} bottom={isMobile} duration={750} delay={450} distance="30px">
+              <h1 className="hero-info">
+                {loc}
+                <br />
+                <span>{contact}</span>
+                <br />
+                <a href={ref} rel="noopener noreferrer" target="_blank">
+                  Contact
+                </a>
+              </h1>
+            </Fade>
+          </Fade>
+        </div>
+
         <Fade left={isDesktop} bottom={isMobile} duration={750} delay={750} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={750}>
-                {cta || 'Know more'}
+                {cta}
               </Link>
             </span>
           </p>
