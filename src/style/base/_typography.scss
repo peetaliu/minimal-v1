@@ -39,11 +39,11 @@ a:hover {
 
 .text-color-main {
   -webkit-background-clip: text;
-  -webkit-text-fill-color: $primary-color;
+  -webkit-text-fill-color: $primary-colour;
 
   @include respond(phone) {
     background-image: none;
-    -webkit-text-fill-color: $secondary-color;
+    -webkit-text-fill-color: $secondary-colour;
   }
 
   &:hover {

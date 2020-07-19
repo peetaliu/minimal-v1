@@ -46,7 +46,6 @@ const Header = () => {
             </Fade>
           </Fade>
         </div>
-
         <Fade left={isDesktop} bottom={isMobile} duration={750} delay={750} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
