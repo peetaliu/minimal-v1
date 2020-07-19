@@ -9,10 +9,7 @@ export const headData = {
 
 export const menuData = {
   logo: 'Peter L.',
-  items: [
-    { id: nanoid(), name: 'lightbulb' },
-    { id: nanoid(), name: 'envelope' },
-  ],
+  items: [{ id: nanoid(), name: 'lightbulb' }],
 };
 
 // HERO DATA
