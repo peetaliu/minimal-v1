@@ -29,7 +29,7 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'Software Developer, Fitness Enthusiast, Car Lover',
   paragraphTwo:
-    "I build web experiences with a focus on useability and simplicity. My front ends are built with React, while my backends consist of RESTful apis with Node/Express and MongoDB. While the MERN stack is great and all, variety is the spice of life. I've worked with SQL databases in school (Oracle SQL, MySQL) and dabbled with Vue and Angular in my free time(nothing extensive). I'm currently learning Svelte and GraphQL.",
+    'I build web experiences with a focus on useability and simplicity. My front ends are built with React, while my backends consist of RESTful apis with Node/Express and MongoDB.',
   paragraphThree:
     "When I'm not doing dev stuff, you can find me in the gym or wrenching in the garage",
   resume: 'url',
