@@ -27,11 +27,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Software Developer, Fitness Enthusiast, Car Lover',
+  paragraphOne:
+    "I build web experiences with a focus on useability and simplicity. Frontend experience consists mainly of ReactJS but I'm always exploring and playing with other frameworks (Vue, Angular, Svelte). Backend skills include using Node/Express to build RESTful api's and some limited knowledge of GraphQL",
   paragraphTwo:
-    'I build web experiences with a focus on useability and simplicity. My front ends are built with React, while my backends consist of RESTful apis with Node/Express and MongoDB.',
+    'Always striving to learn and grow. “Wisdom is not a product of schooling but of the lifelong attempt to acquire it.” - Some physicist named Albert',
   paragraphThree:
-    "When I'm not doing dev stuff, you can find me in the gym or wrenching in the garage",
+    "When I'm not doing dev stuff, you'll usually find me in the gym or wrenching in the garage",
   resume: 'url',
 };
 
@@ -45,6 +46,15 @@ export const projectsData = [
     info2: '',
     url: '',
     repo: 'https://github.com/peetaliu/sunny_bot', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'JSON-GEN',
+    info: 'Generates custom json data based on fields specified by the user',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/peetaliu/json_gen', // if no repo, the button will not show up
   },
 ];
 
