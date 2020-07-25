@@ -28,7 +28,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "I build web experiences with a focus on useability and simplicity. Frontend experience consists mainly of ReactJS but I'm always exploring and playing with other frameworks (Vue, Angular, Svelte). Backend skills include using Node/Express to build RESTful api's and some limited knowledge of GraphQL",
+    "I build web experiences with a focus on useability and simplicity. Frontend experience consists mainly of ReactJS but I'm always trying out other frameworks (Vue, Angular, Svelte). Backend skills include building RESTful api's with Node/Express and some limited knowledge of GraphQL",
   paragraphTwo:
     'Always striving to learn and grow. “Wisdom is not a product of schooling but of the lifelong attempt to acquire it.” - Some physicist named Albert',
   paragraphThree:
