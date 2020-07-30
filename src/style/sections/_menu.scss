@@ -36,6 +36,7 @@
   padding-left: 2em;
   font-size: $big-font-size;
   transition: all 0.2s;
+  color: white;
 
   @include respond(phone) {
     padding-left: 0.5em;
