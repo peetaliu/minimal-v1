@@ -1,10 +1,10 @@
 #about {
-  // background-color: $misc-colour;
-  // background-image: linear-gradient(135deg, $secondary-colour 0%, $primary-colour 100%);
-  padding: 10rem 0;
+  padding: 10rem 0rem;
   min-height: 75vh;
   height: 75vh;
-  //color: $white-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   @include respond(tab-land) {
     height: 100%;
@@ -13,6 +13,7 @@
   }
 
   .phone-cen {
+    justify-content: center;
     @include respond(tab-port) {
       justify-content: center;
     }
@@ -22,32 +23,20 @@
       padding-bottom: 5rem;
     }
 
-    &__image {
-      display: flex;
-      height: 100%;
-      align-items: center;
-      justify-content: center;
-
-      @include respond(tab-port) {
-        padding-bottom: 6.4rem;
-      }
-      @include respond(tab-land) {
-        height: 100%;
-      }
-    }
-
     &__info {
       display: flex;
-      height: 100%;
       justify-content: center;
+      align-self: center;
       flex-direction: column;
+      text-align: center;
+      width: 65vw;
 
       @include respond(phone) {
         align-items: center;
       }
 
       &-text {
-        text-align: left;
+        text-align: center;
         font-size: 2rem;
 
         @include respond(tab-port) {
