@@ -26,7 +26,6 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
   paragraphOne:
     "I build web experiences with a focus on useability and simplicity. Frontend experience consists mainly of ReactJS but I'm always trying out other frameworks (Vue, Angular, Svelte). Backend skills include building RESTful api's with Node/Express and some limited knowledge of GraphQL",
   paragraphTwo:
@@ -38,6 +37,15 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Moodify',
+    info: 'Spotify track recommendations based on your current mood',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/peetaliu/InMyFeelings',
+  },
   {
     id: nanoid(),
     img: 'project.jpg',
@@ -61,8 +69,8 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: 'Want to work with me? Awesome!',
-  ctasub: "Just want to chat? That's fine too!",
-  btn: "Let's Get in Touch",
+  ctasub: '',
+  btn: "Let's get in touch",
   email: 'peterdotliu@gmail.com',
 };
 
