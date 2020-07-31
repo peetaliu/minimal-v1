@@ -1,16 +1,9 @@
 #about {
-  padding: 10rem 0rem;
-  min-height: 65vh;
-  height: 65vh;
+  padding: 7rem 0rem;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  @include respond(tab-land) {
-    height: 100%;
-    -webkit-clip-path: none;
-    clip-path: none;
-  }
 
   @include respond(phone) {
     padding: 5rem 0;
@@ -18,9 +11,6 @@
 
   .phone-cen {
     justify-content: center;
-    @include respond(tab-port) {
-      justify-content: center;
-    }
   }
   .about-wrapper {
     @include respond(phone) {
@@ -33,11 +23,12 @@
       align-self: center;
       flex-direction: column;
       text-align: center;
-      width: 65vw;
+      padding: 2rem 0;
+      width: 50vw;
 
       @include respond(phone) {
         align-items: center;
-        padding: 2rem 0;
+        width: 70vw;
       }
 
       &-text {
