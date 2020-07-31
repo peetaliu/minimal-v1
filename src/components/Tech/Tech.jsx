@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
+import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import TechImg from '../Image/TechImg';
 
@@ -21,17 +22,23 @@ const Tech = () => {
 
   return (
     <section id="tech">
-      <h1>Tech</h1>
-      <h3>{tech.title}</h3>
-      {logoArr &&
-        logoArr.map((t) => {
-          const { img, alt } = t;
-          return (
-            <div className="imgWrap">
-              <TechImg alt={alt} filename={img} key={alt} />
-            </div>
-          );
-        })}
+      <h1 className="techTitle">TECH</h1>
+      <Container>
+        <h3 className="techTitle">{tech.title}</h3>
+        <Row lg={3} xs={2}>
+          {logoArr &&
+            logoArr.map((t) => {
+              const { img, alt } = t;
+              return (
+                <Col className="selfCen">
+                  <div className="imgWrap">
+                    <TechImg alt={alt} filename={img} key={alt} />
+                  </div>
+                </Col>
+              );
+            })}
+        </Row>
+      </Container>
     </section>
   );
 };
