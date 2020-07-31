@@ -1,7 +1,26 @@
 #tech {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  .imgWrap {
-    width: 80%;
+  .techTitle {
+    margin-bottom: 5rem;
   }
+
+  .container {
+    text-align: left;
+    width: 800px;
+
+    @include respond(tab-port) {
+      width: 75%;
+    }
+
+    @include respond(phone) {
+      text-align: center;
+    }
+  }
+}
+
+.selfCen {
+  align-self: center;
 }
