@@ -29,9 +29,9 @@ export const aboutData = {
   paragraphOne:
     "I build web experiences with a focus on useability and simplicity. Frontend experience consists mainly of ReactJS but I'm always trying out other frameworks (Vue, Angular, Svelte). Backend skills include building RESTful api's with Node/Express and some limited knowledge of GraphQL",
   paragraphTwo:
-    'Always striving to learn and grow. “Wisdom is not a product of schooling but of the lifelong attempt to acquire it.” - Some physicist named Albert',
+    "I'm continuously learning and trying to better myself as a developer everyday. “Wisdom is not a product of schooling but of the lifelong attempt to acquire it.” - Some physicist named Albert",
   paragraphThree:
-    "When I'm not working on dev stuff, you'll usually find me in the gym or in the garage ",
+    "When I'm not working on dev stuff, you'll usually find me in the gym or in the garage working on my car",
   resume: 'url',
 };
 
@@ -39,28 +39,28 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'moodify.png',
     title: 'Moodify',
-    info: 'Spotify track recommendations based on your current mood',
-    info2: '',
+    info: 'React, Node/Express',
+    info2: 'Spotify track recommendations based on your current mood',
     url: '',
     repo: 'https://github.com/peetaliu/InMyFeelings',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'botvid19.PNG',
     title: 'BOTVID-19',
-    info: 'Discord bot with commands to display up to date COVID-19 related data',
-    info2: '',
+    info: 'Disord.js',
+    info2: 'Discord bot with commands to display up-to-date COVID-19 related data',
     url: '',
     repo: 'https://github.com/peetaliu/sunny_bot', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: '',
     title: 'JSON-GEN',
-    info: 'Generates custom json data based on fields specified by the user',
-    info2: '',
+    info: 'JS',
+    info2: 'Generates custom json data based on fields specified by the user',
     url: '',
     repo: 'https://github.com/peetaliu/json_gen', // if no repo, the button will not show up
   },
