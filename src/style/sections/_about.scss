@@ -12,6 +12,10 @@
     clip-path: none;
   }
 
+  @include respond(phone) {
+    padding: 5rem 0;
+  }
+
   .phone-cen {
     justify-content: center;
     @include respond(tab-port) {
@@ -33,6 +37,7 @@
 
       @include respond(phone) {
         align-items: center;
+        padding: 2rem 0;
       }
 
       &-text {

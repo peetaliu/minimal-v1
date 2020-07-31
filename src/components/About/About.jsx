@@ -21,7 +21,7 @@ const About = () => {
 
   return (
     <section id="about">
-      <h1>About me</h1>
+      <h1>ABOUT ME</h1>
       <Fade left={isDesktop} bottom={isMobile} duration={750} delay={500} distance="30px">
         <div className="about-wrapper__info">
           <p className="about-wrapper__info-text">{paragraphOne}</p>
