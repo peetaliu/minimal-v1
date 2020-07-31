@@ -1,8 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
-import { Container, Row, Col } from 'react-bootstrap';
-import Title from '../Title/Title';
-import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
 
 const About = () => {
@@ -24,7 +21,7 @@ const About = () => {
 
   return (
     <section id="about">
-      <Title title="About Me" />
+      <h1>About me</h1>
       <Fade left={isDesktop} bottom={isMobile} duration={750} delay={500} distance="30px">
         <div className="about-wrapper__info">
           <p className="about-wrapper__info-text">{paragraphOne}</p>

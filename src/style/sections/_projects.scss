@@ -1,10 +1,12 @@
 #projects {
-  background-color: $white-color;
-  color: $dark-blue-text;
+  background-color: $secondary-colour-1;
 
+  .h-title {
+    margin-bottom: 3rem;
+  }
   @include respond(tab-land) {
     margin-top: 0;
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
 
   .project-wrapper {

@@ -8,7 +8,6 @@ const Menu = () => {
 
   onscroll = () => {
     setScroll(window.pageYOffset);
-    console.log(scroll);
   };
 
   return (
