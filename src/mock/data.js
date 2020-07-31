@@ -31,7 +31,7 @@ export const aboutData = {
   paragraphTwo:
     'Always striving to learn and grow. “Wisdom is not a product of schooling but of the lifelong attempt to acquire it.” - Some physicist named Albert',
   paragraphThree:
-    "When I'm not doing dev stuff, you'll usually find me in the gym or wrenching in the garage",
+    "When I'm not working on dev stuff, you'll usually find me in the gym or in the garage ",
   resume: 'url',
 };
 
@@ -50,7 +50,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'BOTVID-19',
-    info: 'Discord bot which displays COVID-19 news and numbers',
+    info: 'Discord bot with commands to display up to date COVID-19 related data',
     info2: '',
     url: '',
     repo: 'https://github.com/peetaliu/sunny_bot', // if no repo, the button will not show up
@@ -65,6 +65,34 @@ export const projectsData = [
     repo: 'https://github.com/peetaliu/json_gen', // if no repo, the button will not show up
   },
 ];
+
+// TECH DATA
+
+export const techData = {
+  title: 'Some of the tech I enjoy working with',
+  logos: [
+    {
+      name: 'React',
+      img: 'react.png',
+    },
+    {
+      name: 'Node.js',
+      img: 'node.png',
+    },
+    {
+      name: 'MongoDB',
+      img: 'mongo.png',
+    },
+    {
+      name: 'Sass',
+      img: 'sass.png',
+    },
+    {
+      name: 'GraphQL',
+      img: 'gql.png',
+    },
+  ],
+};
 
 // CONTACT DATA
 export const contactData = {
