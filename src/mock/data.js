@@ -69,7 +69,7 @@ export const projectsData = [
 // TECH DATA
 
 export const techData = {
-  title: 'Some of the tech I enjoy working with',
+  title: 'Some technologies I enjoy working with:',
   logos: [
     {
       name: 'React',
@@ -90,6 +90,10 @@ export const techData = {
     {
       name: 'GraphQL',
       img: 'gql.png',
+    },
+    {
+      name: 'PostgreSQL',
+      img: 'pgsql.png',
     },
   ],
 };
