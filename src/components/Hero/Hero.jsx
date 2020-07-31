@@ -36,12 +36,16 @@ const Header = () => {
             </h1>
             <Fade right={isDesktop} bottom={isMobile} duration={750} delay={450} distance="30px">
               <h1 className="hero-info">
-                {loc}
-                <br />
-                <span>{contact}</span>
-                <br />
-                <a href={ref} rel="noopener noreferrer" target="_blank">
-                  Contact
+                <div className="hero-info__text">
+                  {loc}
+                  <br />
+                  <span>{contact}</span>
+                  <br />
+                </div>
+                <a href={ref} rel="noopener noreferrer" target="_blank" className="phone-hide">
+                  <p className="hero-cta">
+                    <span className="cta-btn cta-btn--hero">Contact</span>
+                  </p>
                 </a>
               </h1>
             </Fade>
