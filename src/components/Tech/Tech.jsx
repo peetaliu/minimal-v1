@@ -24,17 +24,30 @@ const Tech = () => {
     <section id="tech">
       <h1 className="techTitle">TECH</h1>
       <Container>
-        <h3 className="techTitle">{tech.title}</h3>
+        <Fade left={isDesktop} bottom={isMobile} duration={750} delay={300} distance="30px">
+          <h3 className="techTitle">{tech.title}</h3>
+        </Fade>
         <Row lg={3} xs={2}>
           {logoArr &&
-            logoArr.map((t) => {
+            logoArr.map((t, i) => {
               const { img, alt } = t;
+              const delay = i * 100 + 200;
               return (
-                <Col className="selfCen">
-                  <div className="imgWrap">
-                    <TechImg alt={alt} filename={img} key={alt} />
-                  </div>
-                </Col>
+                <div className="selfCen" key={alt}>
+                  <Fade
+                    left={isDesktop}
+                    bottom={isMobile}
+                    duration={700}
+                    delay={isMobile ? 300 : delay}
+                    distance="30px"
+                  >
+                    <Col>
+                      <div className="imgWrap">
+                        <TechImg alt={alt} filename={img} />
+                      </div>
+                    </Col>
+                  </Fade>
+                </div>
               );
             })}
         </Row>
