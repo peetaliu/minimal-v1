@@ -6,12 +6,12 @@ const Menu = () => {
   const { menu } = useContext(PortfolioContext);
   const { logo, items } = menu;
 
-  onscroll = () => {
-    setScroll(window.pageYOffset);
-  };
+  // onscroll = () => {
+  //   setScroll(window.pageYOffset);
+  // };
 
   return (
-    <div id={scroll > 50 ? 'menu__scrolled' : 'menu__top'}>
+    <div id="menu__top">
       <h1 className="logo">{logo}</h1>
       {items ? (
         <ul className="items">
