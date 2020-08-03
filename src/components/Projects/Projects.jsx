@@ -25,7 +25,7 @@ const Projects = () => {
       <Container>
         <div className="project-wrapper">
           <h1 className="h-title">PROJECTS</h1>
-          <Row lg={3} sm={1} xs={1}>
+          <Row lg={4} md={2} sm={1} xs={1}>
             {projects.map((project, i) => {
               const { title, info, info2, url, repo, img, id } = project;
               const delay = i * 100 + 200;
