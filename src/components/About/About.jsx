@@ -33,9 +33,9 @@ const About = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="cta-btn cta-btn--resume"
-            href={resume}
+            // href={resume}
           >
-            Resume
+            Résumé
           </a>
         </span>
       </Fade>
