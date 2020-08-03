@@ -46,7 +46,6 @@
 }
 
 .items {
-  list-style: none;
   flex-direction: row;
   padding-right: 2em;
   font-size: 2.5rem;
@@ -55,8 +54,8 @@
     padding-right: 0.5em;
   }
 
-  li {
-    float: left;
-    padding: 0 5px;
+  #drkModeBtn {
+    background: none;
+    border: none;
   }
 }
