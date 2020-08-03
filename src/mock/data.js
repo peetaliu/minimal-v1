@@ -14,7 +14,7 @@ export const menuData = {
 
 // HERO DATA
 export const heroData = {
-  title: "Hi! I'm ",
+  title: "Hi, I'm ",
   name: 'Peter.',
   subtitle: 'Fullstack Developer.',
   tech: 'React, Node/Express.',
@@ -27,11 +27,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   paragraphOne:
-    "I build web experiences with a focus on useability and simplicity. Frontend experience consists mainly of ReactJS but I'm always trying out other frameworks (Vue, Angular, Svelte). Backend skills include building RESTful api's with Node/Express and some limited knowledge of GraphQL",
+    "I love programming, travelling, photography, cars, and lifting (somewhat) heavy things. My preferred form of dev stack is a React frontend with a Node/Express REST backend and either MongoDB or PostgreSQL for storage. I've also dabbled with GraphQL and am excited to put what I've learned into practice",
   paragraphTwo:
-    "I'm continuously learning and trying to better myself as a developer everyday. “Wisdom is not a product of schooling but of the lifelong attempt to acquire it.” - Some physicist named Albert",
+    'I previously worked as a project coordinator, and also as a personal trainer, but my heart was always set on web development. With the world being in the state that its in, I figured now would be a good time to do something I truly enjoy rather than something I tolerate.',
   paragraphThree:
-    "When I'm not working on dev stuff, you'll usually find me in the gym or in the garage working on my car",
+    "When I'm not working on dev stuff, you'll usually find me in the gym, in the garage working on my car, or planning my next big trip",
   resume: 'url',
 };
 
@@ -41,7 +41,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'moodify.png',
     title: 'Moodify',
-    info: 'React, Node/Express',
+    info: 'React, Redux, Node/Express',
     info2: 'Spotify track recommendations based on your current mood',
     url: '',
     repo: 'https://github.com/peetaliu/InMyFeelings',
@@ -57,12 +57,21 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: '',
+    img: 'jsongen.PNG',
     title: 'JSON-GEN',
     info: 'JS',
     info2: 'Generates custom json data based on fields specified by the user',
     url: '',
     repo: 'https://github.com/peetaliu/json_gen', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'port.PNG',
+    title: 'Portfolio',
+    info: 'Gatsby.js',
+    info2: 'My personal website.',
+    url: 'peetaliu.dev',
+    repo: 'https://github.com/peetaliu/minimal-v1', // if no repo, the button will not show up
   },
 ];
 
