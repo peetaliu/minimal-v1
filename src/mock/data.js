@@ -70,7 +70,7 @@ export const projectsData = [
     title: 'Portfolio',
     info: 'Gatsby.js',
     info2: 'My personal website.',
-    url: 'peetaliu.dev',
+    url: 'https://peetaliu.dev',
     repo: 'https://github.com/peetaliu/minimal-v1', // if no repo, the button will not show up
   },
 ];
