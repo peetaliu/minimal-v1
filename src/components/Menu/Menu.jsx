@@ -1,29 +1,28 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useContext, useState } from 'react';
 import PortfolioContext from '../../context/context';
 
 const Menu = () => {
-  const [scroll, setScroll] = useState(0);
+  // const [scroll, setScroll] = useState(0);
+  const [darkMode, setDarkMode] = useState(false);
   const { menu } = useContext(PortfolioContext);
-  const { logo, items } = menu;
+  const { logo } = menu;
 
   // onscroll = () => {
   //   setScroll(window.pageYOffset);
   // };
 
+  const handleDark = () => {
+    setDarkMode(!darkMode);
+  };
+
   return (
     <div id="menu__top">
       <h1 className="logo">{logo}</h1>
-      {items ? (
-        <ul className="items">
-          {items.map((i) => (
-            <li key={i.id}>
-              <i className={`fa fa-${i.name} fa-outline`} />
-            </li>
-          ))}
-        </ul>
-      ) : (
-        ''
-      )}
+      <div className="items">
+        <button id="drkModeBtn" onClick={handleDark}>
+          <i className={`fa fa-lightbulb fa-outline`} />
+        </button>
+      </div>
     </div>
   );
 };
