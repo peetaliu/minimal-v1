@@ -1,0 +1,34 @@
+#edu {
+  padding: 5em 0;
+
+  .eduList {
+    text-align: left;
+    width: 800px;
+
+    .eduEntry {
+      padding: 1rem 0;
+      border-bottom: 1px solid $secondary-colour;
+    }
+
+    .lastEntry {
+      padding: 1rem 0;
+    }
+
+    @include respond(tab-land) {
+      width: 70%;
+    }
+
+    @include respond(phone) {
+      text-align: center;
+    }
+  }
+
+  .grayOut {
+    color: lightgray;
+  }
+}
+
+.eduDate {
+  font-size: $default-font-size;
+  float: right;
+}

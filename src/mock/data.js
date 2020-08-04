@@ -75,8 +75,27 @@ export const projectsData = [
   },
 ];
 
-// TECH DATA
+// EDUCATION DATA
+export const eduData = [
+  {
+    id: nanoid(),
+    cert: 'Online Certificate',
+    school: 'Full Stack Open 2020',
+    program: 'Deep Dive Into Modern Web Development',
+    url: 'https://fullstackopen.com/en',
+    certDate: 'May 2020',
+  },
+  {
+    id: nanoid(),
+    cert: 'Adv. Diploma in CST',
+    school: 'Sheridan College',
+    program: 'Software Development and Network Engineering',
+    url: '',
+    certDate: 'April 2017',
+  },
+];
 
+// TECH DATA
 export const techData = {
   title: 'Some technologies I enjoy working with:',
   logos: [
