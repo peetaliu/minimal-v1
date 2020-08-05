@@ -48,7 +48,7 @@ a:hover {
 
   @include respond(phone) {
     background-image: none;
-    -webkit-text-fill-color: $secondary-colour;
+    -webkit-text-fill-color: $primary-colour-1;
   }
 
   &:hover {
