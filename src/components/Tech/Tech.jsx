@@ -33,7 +33,7 @@ const Tech = () => {
               const { img, alt } = t;
               const delay = i * 100 + 200;
               return (
-                <div className="selfCen" key={alt}>
+                <div className="selfCen" key={`${i}-${alt}`}>
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
