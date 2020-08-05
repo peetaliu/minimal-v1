@@ -45,8 +45,16 @@ const Projects = () => {
                         <Card.Title>{title}</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">{info}</Card.Subtitle>
                         <Card.Text>{info2}</Card.Text>
-                        {url && <Card.Link href={url}>Live Demo</Card.Link>}
-                        <Card.Link href={repo}>Source Code</Card.Link>
+                        <div className="links">
+                          {url && (
+                            <Card.Link href={url} target="_blank">
+                              Live Demo
+                            </Card.Link>
+                          )}
+                          <Card.Link href={repo} target="_blank">
+                            Source Code
+                          </Card.Link>
+                        </div>
                       </Card.Body>
                     </Card>
                   </Col>

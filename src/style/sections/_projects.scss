@@ -45,6 +45,15 @@
       & p > a {
         color: $secondary-colour;
       }
+
+      .card-body {
+        height: 175px;
+        .links {
+          padding-bottom: 1rem;
+          bottom: 0;
+          position: absolute;
+        }
+      }
     }
   }
 }
