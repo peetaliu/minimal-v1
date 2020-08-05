@@ -23,23 +23,23 @@
 
 /* Hero Style */
 .cta-btn--hero {
-  background-image: linear-gradient(135deg, $primary-colour 0%, $secondary-colour 100%);
+  background-image: linear-gradient(135deg, $primary-colour 0%, $primary-colour-1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-width: 2px;
   border-style: solid;
-  border-image: linear-gradient(135deg, $primary-colour 0%, $secondary-colour 100%);
+  border-image: linear-gradient(135deg, $primary-colour 0%, $primary-colour-1 100%);
   border-image-slice: 1;
   cursor: pointer;
   // Responsive Button hero style
   @include respond(phone) {
     background-image: none;
-    border: 2px solid $secondary-colour;
-    -webkit-text-fill-color: $secondary-colour;
+    border: 2px solid $primary-colour-1;
+    -webkit-text-fill-color: $primary-colour-1;
   }
 
   &::after {
-    background-image: linear-gradient(135deg, $primary-colour 0%, $secondary-colour 100%);
+    background-image: linear-gradient(135deg, $primary-colour 0%, $primary-colour-1 100%);
     // Responsive Button hero style
     @include respond(phone) {
       background-image: none;
@@ -51,7 +51,7 @@
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
-      -webkit-text-fill-color: $secondary-colour;
+      -webkit-text-fill-color: $primary-colour-1;
     }
 
     &::after {
@@ -62,23 +62,23 @@
 
 /* Resume Style */
 .cta-btn--resume {
-  background-image: linear-gradient(135deg, $primary-colour 0%, $secondary-colour 100%);
+  background-image: linear-gradient(135deg, $primary-colour 0%, $primary-colour-1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-width: 2px;
   border-style: solid;
-  border-image: linear-gradient(135deg, $primary-colour 0%, $secondary-colour 100%);
+  border-image: linear-gradient(135deg, $primary-colour 0%, $primary-colour-1 100%);
   border-image-slice: 1;
   cursor: pointer;
   // Responsive Button hero style
   @include respond(phone) {
     background-image: none;
-    border: 2px solid $secondary-colour;
-    -webkit-text-fill-color: $secondary-colour;
+    border: 2px solid $primary-colour-1;
+    -webkit-text-fill-color: $primary-colour-1;
   }
 
   &::after {
-    background-image: linear-gradient(135deg, $primary-colour 0%, $secondary-colour 100%);
+    background-image: linear-gradient(135deg, $primary-colour 0%, $primary-colour-1 100%);
     // Responsive Button hero style
     @include respond(phone) {
       background-image: none;
@@ -90,7 +90,7 @@
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
-      -webkit-text-fill-color: $secondary-colour;
+      -webkit-text-fill-color: $primary-colour-1;
     }
 
     &::after {
@@ -100,23 +100,23 @@
 }
 
 .cta-btn--contact {
-  background-image: linear-gradient(135deg, $primary-colour 0%, $tertiary-colour 100%);
+  background-image: linear-gradient(135deg, $primary-colour 0%, $primary-colour-1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-width: 2px;
   border-style: solid;
-  border-image: linear-gradient(135deg, $primary-colour 0%, $secondary-colour 100%);
+  border-image: linear-gradient(135deg, $primary-colour 0%, $primary-colour-1 100%);
   border-image-slice: 1;
   cursor: pointer;
   // Responsive Button hero style
   @include respond(phone) {
     background-image: none;
-    border: 2px solid $secondary-colour;
-    -webkit-text-fill-color: $secondary-colour;
+    border: 2px solid $primary-colour-1;
+    -webkit-text-fill-color: $primary-colour-1;
   }
 
   &::after {
-    background-image: linear-gradient(135deg, $primary-colour 0%, $secondary-colour 100%);
+    background-image: linear-gradient(135deg, $primary-colour 0%, $primary-colour-1 100%);
     // Responsive Button hero style
     @include respond(phone) {
       background-image: none;
@@ -128,7 +128,7 @@
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
-      -webkit-text-fill-color: $secondary-colour;
+      -webkit-text-fill-color: $primary-colour-1;
     }
 
     &::after {
