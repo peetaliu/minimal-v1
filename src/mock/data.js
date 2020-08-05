@@ -29,7 +29,7 @@ export const aboutData = {
   paragraphOne:
     "I love programming, travelling, photography, cars, and lifting (somewhat) heavy things. My preferred form of dev stack is a React frontend with a Node/Express backend and either MongoDB or PostgreSQL for storage. I've also dabbled with GraphQL and am excited to put what I've learned into practice",
   paragraphTwo:
-    "I've previously worked as a project coordinator for an ad agency, and also as a personal trainer, but my heart was always set on web development. With the world being in the state that its in, I figured now would be a good time to do something I truly enjoy rather than something I tolerate.",
+    "My previous non-tech related roles include Project Coordinator for an ad agency and also personal trainer (which I still do from time-to-time). However, don't let my previous occupations fool you, Web development has always been my passion",
   paragraphThree:
     "When I'm not working on dev stuff, you'll usually find me in the gym, in the garage working on my car, or planning my next big trip",
   resume: '',
