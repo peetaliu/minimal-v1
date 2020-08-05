@@ -28,16 +28,6 @@ const About = () => {
           <p className="about-wrapper__info-text">{paragraphTwo}</p>
           <p className="about-wrapper__info-text">{paragraphThree}</p>
         </div>
-        <span className="d-flex mt-3 phone-cen">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            className="cta-btn cta-btn--resume"
-            // href={resume}
-          >
-            Résumé
-          </a>
-        </span>
       </Fade>
     </section>
   );
