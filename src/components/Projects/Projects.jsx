@@ -38,7 +38,7 @@ const Projects = () => {
                   distance="30px"
                   key={id}
                 >
-                  <Col>
+                  <Col className="cardCon">
                     <Card className="project-wrapper__text">
                       <ProjectImg alt={title} filename={img} />
                       <Card.Body>
