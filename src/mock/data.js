@@ -27,12 +27,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   paragraphOne:
-    "I love programming, travelling, photography, cars, and lifting (somewhat) heavy things. My preferred form of dev stack is a React frontend with a Node/Express REST backend and either MongoDB or PostgreSQL for storage. I've also dabbled with GraphQL and am excited to put what I've learned into practice",
+    "I love programming, travelling, photography, cars, and lifting (somewhat) heavy things. My preferred form of dev stack is a React frontend with a Node/Express backend and either MongoDB or PostgreSQL for storage. I've also dabbled with GraphQL and am excited to put what I've learned into practice",
   paragraphTwo:
-    'I previously worked as a project coordinator, and also as a personal trainer, but my heart was always set on web development. With the world being in the state that its in, I figured now would be a good time to do something I truly enjoy rather than something I tolerate.',
+    "I've previously worked as a project coordinator for an ad agency, and also as a personal trainer, but my heart was always set on web development. With the world being in the state that its in, I figured now would be a good time to do something I truly enjoy rather than something I tolerate.",
   paragraphThree:
     "When I'm not working on dev stuff, you'll usually find me in the gym, in the garage working on my car, or planning my next big trip",
-  resume: 'url',
+  resume: '',
 };
 
 // PROJECTS DATA
