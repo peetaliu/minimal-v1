@@ -27,11 +27,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   paragraphOne:
-    "I love programming, travelling, photography, cars, and lifting (somewhat) heavy things. My preferred form of dev stack is a React frontend with a Node/Express backend and either MongoDB or PostgreSQL for storage. I've also dabbled with GraphQL and am excited to put what I've learned into practice",
+    "I love programming, travelling, photography, cars, and lifting (somewhat) heavy things. My preferred dev stack is a React frontend with a Node/Express backend and either MongoDB or PostgreSQL for storage. I've built REST api's but have also dabbled a bit with GraphQL and I'm excited to put what I've learned into practice.",
   paragraphTwo:
-    "My previous non-tech related roles include Project Coordinator for an ad agency and also personal trainer (which I still do from time-to-time). However, don't let my previous occupations fool you, Web development has always been my passion",
+    "My previous non-tech related roles include Project Coordinator for an ad agency and also a personal trainer (which I still do from time-to-time). However, don't let my previous occupations fool you, Web development has always been my passion.",
   paragraphThree:
-    "When I'm not working on dev stuff, you'll usually find me in the gym, in the garage working on my car, or planning my next big trip",
+    "When I'm not working on dev stuff, you'll usually find me in the gym, in the garage working on my car, or planning my next big trip!",
   resume: '',
 };
 
@@ -44,7 +44,7 @@ export const projectsData = [
     info: 'React, Redux, Node/Express',
     info2: 'Spotify track recommendations based on your current mood',
     url: '',
-    repo: 'https://github.com/peetaliu/InMyFeelings',
+    repo: 'https://github.com/peetaliu/Moodify',
   },
   {
     id: nanoid(),
@@ -53,7 +53,7 @@ export const projectsData = [
     info: 'Disord.js',
     info2: 'Discord bot with commands to display up-to-date COVID-19 related data',
     url: '',
-    repo: 'https://github.com/peetaliu/sunny_bot', // if no repo, the button will not show up
+    repo: 'https://github.com/peetaliu/BOTVID-19', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
