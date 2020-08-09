@@ -7,7 +7,7 @@ import BackgroundImg from '../Image/BackgroundImg';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, tech, cta, loc, contact, ref, bg } = hero;
+  const { title, name, subtitle, tech, cta, loc, contact, ref } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
