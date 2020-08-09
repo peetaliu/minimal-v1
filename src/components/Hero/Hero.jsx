@@ -3,11 +3,11 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-import bg from '../../images/bg.jpg';
+import BackgroundImg from '../Image/BackgroundImg';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, tech, cta, loc, contact, ref } = hero;
+  const { title, name, subtitle, tech, cta, loc, contact, ref, bg } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -23,7 +23,8 @@ const Header = () => {
   }, []);
 
   return (
-    <section id="hero" className="jumbotron">
+    <div id="hero" className="jumbotron">
+      <BackgroundImg className="bg" />
       <Container>
         <div className="hero-block">
           <Fade left={isDesktop} bottom={isMobile} duration={750} delay={350} distance="30px">
@@ -61,7 +62,7 @@ const Header = () => {
           </p>
         </Fade>
       </Container>
-    </section>
+    </div>
   );
 };
 
