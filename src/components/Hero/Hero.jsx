@@ -33,7 +33,7 @@ const Header = () => {
               <span className="text-color-main">{name}</span>
               <br />
               {subtitle}
-              <p>{tech}</p>
+              <p className="hero-techText">{tech}</p>
             </h1>
             <Fade right={isDesktop} bottom={isMobile} duration={750} delay={450} distance="30px">
               <h1 className="hero-info">

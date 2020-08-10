@@ -16,16 +16,14 @@
 
   .bg {
     width: 100%;
+    min-height: 100vh;
     height: 100vh !important;
     background-position: center !important;
     background-repeat: repeat-y !important;
     background-size: cover !important;
     position: absolute !important;
-    transition: ease;
+    transition: ease !important;
     filter: brightness(0.55);
-  }
-  @include respond(phone) {
-    padding: 0rem $default-font-size;
   }
 
   .container {
@@ -47,6 +45,9 @@
     margin-bottom: 3.2rem;
     text-align: left;
 
+    .hero-techText {
+      font-weight: 300;
+    }
     @include respond(tab-land) {
       font-size: 4rem;
     }
