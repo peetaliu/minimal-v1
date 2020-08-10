@@ -27,9 +27,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   paragraphOne:
-    "Greetings! How nice of you to drop by. So you want to know a little bit about me? Well, to sum it up, I love coding, travelling, photography, cars, and lifting (somewhat) heavy things. Pretty basic eh? Anyways, you're probably here for the techy stuff right? Let's dive right in. My preferred dev stack is a React frontend with a Node/Express backend and either MongoDB or PostgreSQL for storage. I've built REST api's in my personal projects and also dabbled a bit with GraphQL. While this is my preferred stack, it's not the only one I'll work with. I'm always willing to learn something new!",
+    "Hey stranger, thanks for dropping by! Before we get in contact, I guess I should tell you a little bit about myself. Well to sum it up, I love coding, travelling, photography, cars, and lifting (somewhat) heavy things. Pretty basic eh? Anyways, you're probably here for the techy stuff right? My preferred dev stack is a React frontend with a Node/Express backend and either MongoDB or PostgreSQL for storage. I've built REST api's in my personal projects and also dabbled a bit with GraphQL. While this is my preferred stack, it's not the only one I'll work with. I'm always willing to learn something new!",
   paragraphTwo:
-    "My previous non-tech related roles include Project Coordinator for an ad agency and also a personal trainer (which I still do from time-to-time). However, don't let my previous occupations fool you, Web development has always been my passion.",
+    "My previous non-tech related roles include Project Coordinator for an ad agency and also a Personal Trainer. However, don't let my previous occupations fool you, coding has always been my passion.",
   paragraphThree:
     "When I'm not working on dev stuff, you'll usually find me in the gym, in the garage working on my car, or getting lost in some foreign country.",
   resume: '',
