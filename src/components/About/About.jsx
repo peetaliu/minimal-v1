@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import PortfolioContext from '../../context/context';
+import res from '../../images/PeterLiuResume.pdf';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
@@ -27,6 +28,11 @@ const About = () => {
           <p className="about-wrapper__info-text">{paragraphOne}</p>
           <p className="about-wrapper__info-text">{paragraphTwo}</p>
           <p className="about-wrapper__info-text">{paragraphThree}</p>
+        </div>
+        <div>
+          <a href={res} target="_blank" className="cta-btn cta-btn--resume">
+            Resume
+          </a>
         </div>
       </Fade>
     </section>
