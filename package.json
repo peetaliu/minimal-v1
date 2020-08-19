@@ -15,7 +15,6 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "babel-plugin-styled-components": "^1.11.1",
     "bootstrap": "^4.5.0",
     "gatsby": "^2.23.7",
     "gatsby-background-image": "^1.1.1",
@@ -25,7 +24,6 @@
     "gatsby-plugin-react-helmet": "^3.3.4",
     "gatsby-plugin-sass": "^2.3.4",
     "gatsby-plugin-sharp": "^2.6.12",
-    "gatsby-plugin-styled-components": "^3.3.10",
     "gatsby-source-filesystem": "^2.3.12",
     "gatsby-transformer-sharp": "^2.5.5",
     "nanoid": "^3.1.10",
@@ -38,8 +36,7 @@
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.7.16",
-    "react-tilt": "^0.1.4",
-    "styled-components": "^5.1.1"
+    "react-tilt": "^0.1.4"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
