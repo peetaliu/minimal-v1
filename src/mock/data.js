@@ -26,12 +26,12 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  paragraphOne:
-    "Hey stranger, thanks for dropping by! Before we get in contact, I guess I should tell you a little bit about myself. Well to sum it up, I love coding, travelling, photography, cars, and lifting (somewhat) heavy things. Pretty basic eh? Anyways, you're probably here for the techy stuff right? My preferred dev stack is a React frontend with a Node/Express backend and either MongoDB or PostgreSQL for storage. I've built REST api's in my personal projects and also dabbled a bit with GraphQL. While this is my preferred stack, it's not the only one I'll work with. I'm always willing to learn something new!",
+  img: 'profile.jpg',
+  paragraphOne: `Nice to meet ya. I build web experiences using ReactJS.`,
   paragraphTwo:
-    "My previous non-tech related roles include Project Coordinator for an ad agency and also a Personal Trainer. However, don't let my previous occupations fool you, coding has always been my passion.",
+    'As a hobbyist, I have a bunch of (unfinished) projects on my Github. Feel free to take a look.',
   paragraphThree:
-    "When I'm not working on dev stuff, you'll usually find me in the gym, in the garage working on my car, or getting lost in some foreign country.",
+    'I love coding. Enough to try and make it my career. Living in the Greater Toronto Area and looking for work.',
   resume: '',
 };
 
