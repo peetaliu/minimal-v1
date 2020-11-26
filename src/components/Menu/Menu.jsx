@@ -17,7 +17,7 @@ const Menu = () => {
 
   return (
     <div id="menu__top">
-      <h1 className="logo">{logo}</h1>
+      {/* <h1 className="logo">{logo}</h1> */}
       {/* Darkmode TBC
       <div className="items">
         <button id="drkModeBtn" onClick={handleDark}>
