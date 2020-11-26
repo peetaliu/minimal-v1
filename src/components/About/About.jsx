@@ -1,11 +1,13 @@
 import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import PortfolioContext from '../../context/context';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import res from '../../images/PeterLiuResume.pdf';
+import profile from '../../images/profile.jpg'
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const {paragraphOne, paragraphTwo, paragraphThree, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -22,19 +24,30 @@ const About = () => {
 
   return (
     <section id="about">
-      <h1>ABOUT ME</h1>
-      <Fade left={isDesktop} bottom={isMobile} duration={750} delay={500} distance="30px">
-        <div className="about-wrapper__info">
-          <p className="about-wrapper__info-text">{paragraphOne}</p>
-          <p className="about-wrapper__info-text">{paragraphTwo}</p>
-          <p className="about-wrapper__info-text">{paragraphThree}</p>
-        </div>
+      <h1 className="title">ABOUT ME</h1>
+      <Container className="about-wrapper">
+        <Row>
+          <Col className="about-wrapper__profile">
+            <Fade left={isDesktop} top={isMobile} duration={750} delay={300}>
+              <Image src={profile} roundedCircle fluid id="profile"/>
+            </Fade>
+          </Col>
+          <Col className="about-wrapper__info">
+            <Fade right={isDesktop} bottom={isMobile} duration={750} delay={500} distance="30px">
+
+                <p >{paragraphOne}</p>
+                <p >{paragraphTwo}</p>
+                <p >{paragraphThree}</p>
+            </Fade>
+          </Col>
+        </Row>
+      </Container>
         <div>
           <a href={res} target="_blank" className="cta-btn cta-btn--resume">
             Resume
           </a>
         </div>
-      </Fade>
+      
     </section>
   );
 };

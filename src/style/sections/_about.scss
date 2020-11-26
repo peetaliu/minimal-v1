@@ -9,59 +9,69 @@
   @include respond(phone) {
     padding: 5rem 0;
   }
-
+  .title {
+    padding-bottom: 2em;
+  }
   .phone-cen {
     justify-content: center;
   }
   .about-wrapper {
+    padding-bottom: 3rem;
     @include respond(phone) {
       padding-bottom: 5rem;
+      .row {
+        flex-direction: column;
+      }
     }
 
-    &__info {
-      display: flex;
-      justify-content: center;
+    &__profile {
+      max-width: 300px;
       align-self: center;
-      flex-direction: column;
-      text-align: center;
-      padding: 2rem 0;
-      width: 50vw;
-
+    }
+    &__info {
       @include respond(phone) {
-        align-items: center;
-        width: 70vw;
-      }
-
-      &-text {
         text-align: center;
-        font-size: 2rem;
-
-        @include respond(tab-port) {
-          font-size: 1.5rem;
-          text-align: center;
-        }
-        @include respond(phone) {
-          font-size: 1.6rem;
-          text-align: center;
-        }
-
-        &--important {
-          background: darken($secondary-colour, 1%);
-          display: inline-block;
-          font-style: italic;
-          padding: 0 0.3rem;
-          margin: 0.3rem 0;
-          line-height: 1.6;
-
-          @include respond(phone) {
-            display: inline;
-            margin: 0;
-            padding: 0;
-            background: transparent;
-            font-style: normal;
-          }
-        }
       }
+      text-align: left;
+      align-self: center;
     }
   }
+
+  //     @include respond(phone) {
+  //       align-items: center;
+  //       width: 70vw;
+  //     }
+
+  //     &-text {
+  //       text-align: center;
+  //       font-size: 2rem;
+
+  //       @include respond(tab-port) {
+  //         font-size: 1.5rem;
+  //         text-align: center;
+  //       }
+  //       @include respond(phone) {
+  //         font-size: 1.6rem;
+  //         text-align: center;
+  //       }
+
+  //       &--important {
+  //         background: darken($secondary-colour, 1%);
+  //         display: inline-block;
+  //         font-style: italic;
+  //         padding: 0 0.3rem;
+  //         margin: 0.3rem 0;
+  //         line-height: 1.6;
+
+  //         @include respond(phone) {
+  //           display: inline;
+  //           margin: 0;
+  //           padding: 0;
+  //           background: transparent;
+  //           font-style: normal;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 }
