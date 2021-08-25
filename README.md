@@ -1,5 +1,4 @@
-Peetaliu.dev
+Peetaloo.dev
 
 Portfolio
 
-Made with love using GatsbyJS
