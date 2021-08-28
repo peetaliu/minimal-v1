@@ -13,7 +13,6 @@
   bottom: 0;
   right: 0;
   z-index: -1;
-
   .bg {
     width: 100%;
     min-height: 100vh;
@@ -106,6 +105,40 @@
       @include respond(phone) {
         font-size: 2rem;
       }
+    }
+  }
+
+  .btm-block {
+    position: absolute;
+    bottom: 0.5em;
+    align-self: flex-end;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 4rem;
+    cursor: pointer;
+  }
+
+  .bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
     }
   }
 }

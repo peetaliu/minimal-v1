@@ -2,6 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import PortfolioContext from '../../context/context';
 import BackgroundImg from '../Image/BackgroundImg';
 
@@ -62,6 +63,17 @@ const Header = () => {
           </p>
         </Fade>
       </Container>
+      <div className="btm-block">
+        <Fade top={isDesktop} duration={750} delay={750} distance="30px">
+          <p className="hero-cta">
+            <span className="hero-chev bounce">
+              <Link to="about" smooth duration={750}>
+                <KeyboardArrowDownIcon style={{ fontSize: 40 }} />
+              </Link>
+            </span>
+          </p>
+        </Fade>
+      </div>
     </div>
   );
 };
