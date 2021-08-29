@@ -27,6 +27,9 @@
     &__profile {
       max-width: 300px;
       align-self: center;
+      @include respond(phone) {
+        padding-bottom: 3.5rem;
+      }
     }
     &__info {
       @include respond(phone) {
