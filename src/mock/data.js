@@ -31,7 +31,7 @@ export const aboutData = {
   paragraphTwo:
     'As a hobbyist, I have a bunch of (unfinished) projects on my Github. Feel free to take a look.',
   paragraphThree:
-    'I love coding. Enough to try and make it my career. Living in the Greater Toronto Area and looking for work.',
+    "Coding is one of my favorite pastimes! But when I'm not fiddling away in VS Code, you can usually find me in the gym working out, doing car stuff, or practicing my photography (mostly of cars and dogs).",
   resume: '',
 };
 
